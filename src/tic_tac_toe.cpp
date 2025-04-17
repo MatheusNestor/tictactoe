@@ -169,6 +169,8 @@ private:
 
 // Função principal
 int main() {
+    srand(time(nullptr));
+
     // Inicializar o jogo e os jogadores
     TicTacToe jogo;
 
@@ -193,3 +195,4 @@ int main() {
 
     return 0;
 }
+
